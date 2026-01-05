@@ -104,7 +104,123 @@ By the below data we can clearly deduce that in this dataset:
   <img width="998" height="645" alt="WINWORD_EH4eDaLE3r" src="https://github.com/user-attachments/assets/8f7f437c-aaae-47e4-ac9f-a8c78120f516" />
 **Correlation Analysis between Age and Billing amount:**
 
-https://raw.githubusercontent.com/BEBANDH/EDA-HealthcareData/refs/heads/main/2.png
+<img width="998" height="645" alt="image" src="https://github.com/user-attachments/assets/6a65dd87-cb06-49b5-a54a-906df6fb0c36" />
+
+- - 1. **Medication/Medicine Analysis worksheet**
+
+**Columns:**
+
+- Name
+- Condition
+- Medication
+- Billing amount
+
+From the below pivot table we can deduce the following insights about the medications:
+
+**For Arthritis** 🡪 most prescribed: Aspirin ; Least prescribed: Ibuprofen
+
+**For Asthma** 🡪most prescribed: Paracetamol ; Least prescribed: Aspirin
+
+**For Cancer** 🡪most prescribed: Lipitor ; Least prescribed: Aspirin
+
+**For Diabetes** 🡪most prescribed: Lipitor ; Least prescribed: Paracetamol
+
+**For Hypertension**🡪most prescribed: Ibuprofen ; Least prescribed: Penicillin
+
+**For Obesity** 🡪most prescribed: Penicillin ; Least prescribed: Paracetamol
+
+<img width="982" height="286" alt="image" src="https://github.com/user-attachments/assets/5fde3c06-9545-4456-a954-2e76c62c4467" />
+
+From the pivot table given below we have a lot of interesting findings :
+
+We can not derive any meaning from the results that are Inconclusive. We need to highlight the medications which are the least in ABNORMAL and the most in NORMAL.  
+In this sense, a medical condition sequentially gives us certain findings .
+
+For
+
+- Arthritis ; Lipitor is the best medicine according to test results
+- Asthma; Ibuprofen
+- Cancer ; Lipitor
+- Diabetes; Penicillin
+- Hypertension; Ibuprofen
+- Obesity ; Aspirin
+But above data has a lot of conflicts that suggests that a lot of doctors also prescribe medications that are not optimized for the best test results. Only for cancer and hypertension, have the doctors prescribed Lipitor and Ibuprofen respectively which is also fits for best test results.
+
+<img width="532" height="647" alt="image" src="https://github.com/user-attachments/assets/4c4284a9-53f3-48c6-ab16-431dc32c8293" />
+From the table below we can infer that all the medications have almost the same amount of average billing amount hence one medication is not more or less expensive than another.
+
+Ibuprofen costs slightly more than other medications.
+
+<img width="476" height="202" alt="image" src="https://github.com/user-attachments/assets/e315d386-1cb0-4fa9-b20a-0bbb9866769a" />
+
+- - 1. **Medical Condition Analysis worksheet**
+
+**Columns:**
+
+- Name
+- Days Admitted
+- Condition
+- Billing amount
+- Gender
+- Blood Type
+
+<img width="524" height="198" alt="image" src="https://github.com/user-attachments/assets/705fce59-368c-4ea0-82fe-90aa9d26581b" />
+This table shows less about the population insights and more about this particular dataset because it shows that the digits are more or less evenly spread when it comes to relation with the medical condition, not necessarily showing true facts.
+
+Given below is the pivot table that aims to display the distribution of medical condition in Male vs Female:
+<img width="426" height="301" alt="image" src="https://github.com/user-attachments/assets/cea4f316-87f7-49f5-af4e-8348ff375499" />
+
+On general inspection of this data, we can derive that similar to the previous insight that we found this data is also more or less distributed equally among the attributes and gender does not affect the probability of having a certain medical condition.
+
+However, we can look at the maximum and minimum values :
+
+- Females having arthritis is the most common in the dataset .
+- Females having Asthma is the least common.
+
+Below is the pivot table which attempts to relate blood type with condition.
+
+Non-interestingly enough, medical conditions are also evenly distributed across all the types of blood.
+
+- A+ having Diabetes is the most common.
+- B+ having Hypertension is the least common.
+
+  <img width="829" height="284" alt="image" src="https://github.com/user-attachments/assets/565f2d31-48dc-46de-997f-956085cb985d" />
+
+  - - 1. **Bill Analysis worksheet**
+
+**Columns:**
+
+- Name
+- Test Results
+- Billing amount
+- Insurance provider
+
+Bill can be analysed in the following key ways:
+
+- Which insurance company gave what amount of insurance in the form of a pivot table.
+
+The pivot table of insurance provider and the sum of billing amount displays that all the insurance companies paid almost the same amount of insurance and have similar bill average which means there are very less outliers in the data.
+
+<img width="648" height="201" alt="image" src="https://github.com/user-attachments/assets/157bf280-71d1-4742-8f24-a4185a359592" />
+- Pie chart that can display which company gave how much of insurance as a fraction of the whole amount. The pie chart clearly shows that out of the total amount which is 1.4B \$ all 5 of the companies have 1/5 share each of the amount of insurance paid.
+- A pivot table of Test result and Average of billing amount which can show if amount of money spend can increase your chances of a normal test result. The last pivot table shows that Test results can't be necessarily related with the billing amount because almost equal amount of money was paid which resulted in three different test results.
+<img width="489" height="352" alt="image" src="https://github.com/user-attachments/assets/5d53db58-2f91-4690-8660-e8066cbb1d6e" />
+
+<img width="512" height="153" alt="image" src="https://github.com/user-attachments/assets/8bba133a-5c02-4bbb-b314-52d6d0e39f8b" />
+- - 1. **Conclusion**
+
+By conducting the above study of different attributes, we can conclude that the data was equally distributed amongst all the attributes and no solid conclusions can be drawn because the data is not skewed towards any particular outcome favouring or unfavouring the results. This study told us the methods by which we can conduct studies on similar datasets which need to be cleaned, processed and ultimately explored to find interesting insights about the population behaviour in the data represented in the form of a sample.
+
+This framework can be subsequently used to create a dashboard representing different stats on one single page.
+
+
+
+
+
+
+
+
+
 
 
 
