@@ -102,5 +102,10 @@ By the below data we can clearly deduce that in this dataset:
 - When trying to find a correlation between Age and Billing amount the score is -0.003832 which is almost no correlation, which clearly suggests that in this data Age does not affect Billing amount in any way.
 
   <img width="998" height="645" alt="WINWORD_EH4eDaLE3r" src="https://github.com/user-attachments/assets/8f7f437c-aaae-47e4-ac9f-a8c78120f516" />
+**Correlation Analysis between Age and Billing amount:**
+
+https://raw.githubusercontent.com/BEBANDH/EDA-HealthcareData/refs/heads/main/2.png
+
+
 
 
