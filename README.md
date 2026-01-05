@@ -207,6 +207,7 @@ The pivot table of insurance provider and the sum of billing amount displays tha
 <img width="489" height="352" alt="image" src="https://github.com/user-attachments/assets/5d53db58-2f91-4690-8660-e8066cbb1d6e" />
 
 <img width="512" height="153" alt="image" src="https://github.com/user-attachments/assets/8bba133a-5c02-4bbb-b314-52d6d0e39f8b" />
+
 - - 1. **Conclusion**
 
 By conducting the above study of different attributes, we can conclude that the data was equally distributed amongst all the attributes and no solid conclusions can be drawn because the data is not skewed towards any particular outcome favouring or unfavouring the results. This study told us the methods by which we can conduct studies on similar datasets which need to be cleaned, processed and ultimately explored to find interesting insights about the population behaviour in the data represented in the form of a sample.
